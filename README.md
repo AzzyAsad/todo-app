@@ -45,12 +45,12 @@ This project follows the vertical slicing architecture, which organizes the code
    ```bash
    git clone https://github.com/AzzyAsad/todo-app.git
    ```
-* ### Setting up the .NET API project
+### Setting up the .NET API project
 
 > [!Important]  
 > Kindly make sure that API is configured on HTTPS protocol and using port: 7027
 
-- #### Change the working directory to .NET API Project
+#### Change the working directory to .NET API Project
    ```bash
    cd todo-app\TodoApp.API\
    ```
