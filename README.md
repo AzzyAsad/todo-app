@@ -69,6 +69,7 @@ This project follows the vertical slicing architecture, which organizes the code
 ### Change the working directory to react UI Project
    ```bash
    cd todo-app\TodoApp.UI\todo-app
+   ```
 
 ### Install node_modules
    ```bash
