@@ -75,9 +75,6 @@ This project follows the vertical slicing architecture, which organizes the code
 
 ### Setting up the React UI project
 
-> [!Important]  
-> Before proceeding forward, kindly make sure that API is configured on HTTPS protocol and using port: 7027
-
 #### Open a new terminal on the same folder and then change the working directory to react UI Project
    ```bash
    cd todo-app\TodoApp.UI\todo-app
@@ -88,7 +85,10 @@ This project follows the vertical slicing architecture, which organizes the code
    npm install
    ```
 
-### Start UI Project
+#### Start UI Project
    ```bash
    npm start
    ```
+
+> [!Important]  
+> Kindly make sure that API is configured on HTTPS protocol and using port: 7027
