@@ -33,7 +33,7 @@ This project follows the vertical slicing architecture, which organizes the code
 - .NET 8 Minimal API
 - Entity Framework for data storage
 
-## Installation
+## Installation & Setup
 
 ### Prerequisites
 
@@ -66,7 +66,7 @@ This project follows the vertical slicing architecture, which organizes the code
    dotnet run --launch-profile https
    ```
 
-### Change the working directory to react UI Project
+### Open a new terminal on same folder and then change the working directory to react UI Project
    ```bash
    cd todo-app\TodoApp.UI\todo-app
    ```
