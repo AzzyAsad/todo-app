@@ -38,13 +38,45 @@ This project follows the vertical slicing architecture, which organizes the code
 ### Prerequisites
 
 - Node.js
-- .NET Core SDK
+- .NET 8 SDK
 
 ### Clone repository
 
    ```bash
    git clone https://github.com/AzzyAsad/todo-app.git
    ```
+
+### Change the working directory to .NET API Project
    ```bash
-   cd todo-list
+   cd todo-app\TodoApp.API\
+   ```
+
+### Change the working directory to .NET API Project
+   ```bash
+   cd todo-app\TodoApp.API\
+   ```
+
+### Restore .NET project packages
+   ```bash
+   dotnet restore
+   ```
+
+### Build .NET project
+   ```bash
+   dotnet build
+   ```
+
+### Start .NET API project
+   ```bash
+   dotnet run --launch-profile https
+   ```
+
+### Install node_modules
+   ```bash
+   npm install
+   ```
+
+### Start UI Project
+   ```bash
+   npm start
    ```
