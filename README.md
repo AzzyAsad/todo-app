@@ -67,7 +67,7 @@ This project follows the vertical slicing architecture, which organizes the code
    dotnet run --launch-profile https
    ```
 > [!Important]  
-> Kindly make sure that API is configured on HTTPS protocol and using port: 7027
+> Kindly make sure that API is running on port: 7027 using HTTPS protocol.
 
 > [!NOTE]  
 > I have used Entity Framework Core InMemory for saving data in memory on the server side. Hence, no migration is required.
