@@ -31,7 +31,7 @@ This project follows the vertical slicing architecture, which organizes the code
 ### Backend
 
 - .NET 8 Minimal API
-- Entity Framework for data storage
+- Entity Framework Provider for In-Memory Database for data storage 
 
 ## Installation & Setup
 
