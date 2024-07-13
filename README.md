@@ -64,6 +64,8 @@ This project follows the vertical slicing architecture, which organizes the code
 ### Start .NET API project
    ```bash
    dotnet run --launch-profile https
+
+   #Make sure that API is configured on HTTPS protocol using port: 7027
    ```
 
 ### Open a new terminal on same folder and then change the working directory to react UI Project
