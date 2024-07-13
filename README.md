@@ -1,6 +1,6 @@
 # Todo App
 
-A simple Todo application built with React functional components and a .NET 8 API using vertical slicing architecture.
+A simple Todo application built with React functional components and a .NET 8 Minimal APIs using vertical slicing architecture.
 
 ## Table of Contents
 
@@ -30,7 +30,7 @@ This project follows the vertical slicing architecture, which organizes the code
 
 ### Backend
 
-- .NET 8 API
+- .NET 8 Minimal API
 - Entity Framework for data storage
 
 ## Installation
@@ -44,3 +44,5 @@ This project follows the vertical slicing architecture, which organizes the code
 
    ```bash
    git clone https://github.com/AzzyAsad/todo-app.git
+
+   cd todo-list
