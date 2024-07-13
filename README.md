@@ -69,6 +69,7 @@ This project follows the vertical slicing architecture, which organizes the code
    ```bash
    dotnet run --launch-profile https
    ```
+
 > [!Info]  
 > I have used Entity Framework Core InMemory for saving data in memory on the server side. Hence, no migration is required.
 
