@@ -44,6 +44,7 @@ This project follows the vertical slicing architecture, which organizes the code
 
    ```bash
    git clone https://github.com/AzzyAsad/todo-app.git
-
+   ```
    ```bash
    cd todo-list
+   ```
