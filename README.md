@@ -63,12 +63,12 @@ This project follows the vertical slicing architecture, which organizes the code
 
 ### Start .NET API project
    ```bash
-   dotnet run --launch-profile https
-
    #Make sure that API is configured on HTTPS protocol using port: 7027
+
+   dotnet run --launch-profile https
    ```
 
-### Open a new terminal on same folder and then change the working directory to react UI Project
+### Open a new terminal on the same folder and then change the working directory to react UI Project
    ```bash
    cd todo-app\TodoApp.UI\todo-app
    ```
@@ -80,5 +80,7 @@ This project follows the vertical slicing architecture, which organizes the code
 
 ### Start UI Project
    ```bash
+   #Kindly make sure that API is configured on HTTPS protocol using port: 7027
+
    npm start
    ```
