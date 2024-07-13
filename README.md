@@ -45,30 +45,33 @@ This project follows the vertical slicing architecture, which organizes the code
    ```bash
    git clone https://github.com/AzzyAsad/todo-app.git
    ```
+### Setting up the .NET API project
 
-### Change the working directory to .NET API Project
+#### Change the working directory to .NET API Project
    ```bash
    cd todo-app\TodoApp.API\
    ```
 
-### Restore .NET project packages
+#### Restore .NET project packages
    ```bash
    dotnet restore
    ```
 
-### Build .NET project
+#### Build .NET project
    ```bash
    dotnet build
    ```
 
-### Start .NET API project
+#### Start .NET API project
    ```bash
    #Make sure that API is configured on HTTPS protocol using port: 7027
 
    dotnet run --launch-profile https
    ```
 
-#### I have used Entity Framework Core InMemory for saving data in memory on the server side. Hence no migration is required.
+#### I have used Entity Framework Core InMemory for saving data in memory on the server side. Hence, no migration is required.
+
+### Setting up the React UI project
 
 ### Open a new terminal on the same folder and then change the working directory to react UI Project
    ```bash
