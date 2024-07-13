@@ -46,8 +46,8 @@ This project follows the vertical slicing architecture, which organizes the code
    git clone https://github.com/AzzyAsad/todo-app.git
    ```
 ### Setting up the .NET API project
-**Note**
-Highlights information that users should take into account, even when skimming.
+> [!NOTE]  
+> This is a note
 
 #### Change the working directory to .NET API Project
    ```bash
