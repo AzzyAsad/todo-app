@@ -68,6 +68,8 @@ This project follows the vertical slicing architecture, which organizes the code
    dotnet run --launch-profile https
    ```
 
+#### I have used Entity Framework Core InMemory for saving data in memory on the server side. Hence no migration is required.
+
 ### Open a new terminal on the same folder and then change the working directory to react UI Project
    ```bash
    cd todo-app\TodoApp.UI\todo-app
