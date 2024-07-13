@@ -51,11 +51,6 @@ This project follows the vertical slicing architecture, which organizes the code
    cd todo-app\TodoApp.API\
    ```
 
-### Change the working directory to .NET API Project
-   ```bash
-   cd todo-app\TodoApp.API\
-   ```
-
 ### Restore .NET project packages
    ```bash
    dotnet restore
@@ -70,6 +65,10 @@ This project follows the vertical slicing architecture, which organizes the code
    ```bash
    dotnet run --launch-profile https
    ```
+
+### Change the working directory to react UI Project
+   ```bash
+   cd todo-app\TodoApp.UI\todo-app
 
 ### Install node_modules
    ```bash
